@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+jobs.json
+.env
+test_intercept.py
+scrape.py
+.claude/
+.github/
+ARCHITECTURE.md

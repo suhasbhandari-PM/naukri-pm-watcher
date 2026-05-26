@@ -1,0 +1,6 @@
+@echo off
+echo Running PM Job Pipeline...
+python "%~dp0..\job-discovery-pipeline\pipeline.py" %*
+echo.
+echo Opening dashboard...
+start "" "%~dp0index.html"
